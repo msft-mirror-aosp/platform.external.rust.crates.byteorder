@@ -42,6 +42,8 @@ rust_library {
     name: "libbyteorder",
     host_supported: true,
     crate_name: "byteorder",
+    cargo_env_compat: true,
+    cargo_pkg_version: "1.4.3",
     srcs: ["src/lib.rs"],
     edition: "2018",
     features: [
@@ -52,4 +54,5 @@ rust_library {
         "//apex_available:platform",
         "com.android.virt",
     ],
+    vendor_available: true,
 }
