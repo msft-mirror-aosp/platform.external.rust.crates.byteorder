@@ -9,82 +9,30 @@
     },
     {
       "path": "external/rust/crates/zerocopy"
-    }
-  ],
-  "presubmit": [
-    {
-      "name": "ZipFuseTest"
     },
     {
-      "name": "apkdmverity.test"
+      "path": "packages/modules/Virtualization/apkdmverity"
     },
     {
-      "name": "avmdtool.test"
+      "path": "packages/modules/Virtualization/avmd"
     },
     {
-      "name": "avmdtool_tests"
+      "path": "packages/modules/Virtualization/libs/apexutil"
     },
     {
-      "name": "libapexutil_rust.test"
+      "path": "packages/modules/Virtualization/libs/apkverify"
     },
     {
-      "name": "libapkverify.integration_test"
+      "path": "packages/modules/Virtualization/microdroid_manager"
     },
     {
-      "name": "libapkverify.test"
+      "path": "packages/modules/Virtualization/virtualizationmanager"
     },
     {
-      "name": "libpvmfw_avb.integration_test"
+      "path": "packages/modules/Virtualization/vm"
     },
     {
-      "name": "microdroid_manager_test"
-    },
-    {
-      "name": "virtualizationmanager_device_test"
-    },
-    {
-      "name": "vm.test"
-    },
-    {
-      "name": "vmbase_example.integration_test"
-    }
-  ],
-  "presubmit-rust": [
-    {
-      "name": "ZipFuseTest"
-    },
-    {
-      "name": "apkdmverity.test"
-    },
-    {
-      "name": "avmdtool.test"
-    },
-    {
-      "name": "avmdtool_tests"
-    },
-    {
-      "name": "libapexutil_rust.test"
-    },
-    {
-      "name": "libapkverify.integration_test"
-    },
-    {
-      "name": "libapkverify.test"
-    },
-    {
-      "name": "libpvmfw_avb.integration_test"
-    },
-    {
-      "name": "microdroid_manager_test"
-    },
-    {
-      "name": "virtualizationmanager_device_test"
-    },
-    {
-      "name": "vm.test"
-    },
-    {
-      "name": "vmbase_example.integration_test"
+      "path": "packages/modules/Virtualization/zipfuse"
     }
   ]
 }
