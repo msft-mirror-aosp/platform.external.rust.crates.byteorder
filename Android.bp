@@ -65,11 +65,16 @@ rust_library_rlib {
     cargo_pkg_version: "1.4.3",
     srcs: ["src/lib.rs"],
     edition: "2018",
+    apex_available: [
+        "//apex_available:platform",
+        "//apex_available:anyapex",
+    ],
     prefer_rlib: true,
     no_stdlibs: true,
     stdlibs: [
         "libcompiler_builtins.rust_sysroot",
         "libcore.rust_sysroot",
     ],
+    product_available: true,
     vendor_available: true,
 }
